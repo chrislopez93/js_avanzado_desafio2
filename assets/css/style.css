@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-weight:bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex_container_body{
+    background-color: red;
+    max-width:90%;
+    height: 500px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ ul{
+    margin-top: 5px;
+    padding-left: 50px;
+ }
+
+ li{
+    list-style: upper-latin;
+ }
