@@ -17,7 +17,7 @@ h1{
 }
 
 .flex_container_body{
-    background-color: red;
+    /* background-color: red; */
     max-width:90%;
     height: 500px;
     padding: 10px;
@@ -36,4 +36,17 @@ h2{
 
  li{
     list-style: upper-latin;
+ }
+
+ .flex_item_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+ }
+
+ .primeraImagen{
+    margin-top: 15px;
+    width: 500px;
  }
