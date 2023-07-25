@@ -1,5 +1,5 @@
 function margen(){
-// alert('Se ha pulsado la imagen')    
-const MARGEN = document.querySelector('.btn-margen');
-MARGEN.style.border = "2px solid red"
+    const margen = document.getElementById("imagenId");
+    margen.classList.toggle("imagenClass");
 }
+//Accede al elemento con imagenId y añade la clase imagenClass con classList.toggle
