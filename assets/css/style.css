@@ -65,7 +65,7 @@ h2{
     align-items: center;
     flex-direction: row;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 30px;
  }
 
  .imagenClass{
@@ -101,7 +101,12 @@ h2{
     margin-top: 15px;
 }
 
-#alerta_stickers{
+.cantidad_stickers{
+    font-weight: 600;
+}
+
+#stickerId{
     color:red;
+    font-weight: 600;
 }
 

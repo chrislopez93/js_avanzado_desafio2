@@ -10,11 +10,13 @@ function verCard(){
     const mario = document.querySelector('#mario').value;
     const suma = Number(kirby) + Number(mario) + Number(zelda);
         document.querySelector('.seleccion_stickers').innerHTML = " " + suma;
-    const alerta = document.querySelector('#alerta_stickers');
     if(suma >= 11){
-      alerta.style.display= 'block'
+        const alerta = document.querySelector('.stickerSpan');
+        alerta.innerHTML = " " + "¡Atención! Haz sobrepasado los 10 stickers permitidos";  
     }else{
-        alerta.style.display= 'none'
-
+        const alerta = document.querySelector('.stickerSpan');
+        alerta.innerHTML = ""
     }
 }
+
+// ¡Atención! Haz sobrepasado los 10 stickers permitidos
