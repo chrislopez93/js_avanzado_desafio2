@@ -41,9 +41,9 @@
             stickers llevados. Ejemplo "llevas 5 stickers" en cualquier otro caso se mostrará un
             texto que dice "Llevas demasiados stickers". <strong>(Total: 4 puntos)</strong></p>
         <ul>
-            <li>El párrafo muestra la cantidad de stickers seleccionados <strong>(2 punto)</strong></li>
+            <li>El párrafo muestra la cantidad de stickers seleccionados <strong>(2 puntos)</strong></li>
             <li>El párrafo muestra que lleva demasiados stickers en caso de que la cantidad
-                sea mayor que 10. <strong>(2 punto)</strong></li>
+                sea mayor que 10. <strong>(2 puntos)</strong></li>
         </ul>
         <div class="flex_item_card_container">
             <div class="flex_item_card">
@@ -69,11 +69,85 @@
                     <input type="number" min="0" class="input" id="mario" placeholder="Puedes elegir hasta 10 stickers">
                 </div>
             </div>
-                <p class="cantidad_stickers"> La cantidad de stickers seleccionados son:<span class="seleccion_stickers"></span></p>
-                <p id="stickerId"><span class="stickerSpan"></span></p>
+            <p class="cantidad_stickers"> La cantidad de stickers seleccionados son:<span
+                    class="seleccion_stickers"></span></p>
+            <p id="stickerId"><span class="stickerSpan"></span></p>
             <button class="button_card" onclick="verCard();">Verificar</button>
         </div>
-        <script src="./assets/js/main.js"></script>
+    </div>
+    <div class="flex_container_body">
+        <h2>Tarea N°3:</h2>
+        <p>Se debe construir una página con 3 select y opciones con dígitos del 1 al 9, al hacer
+            click a la opción ingresar se debe verificar que el password sea 911 y en ese caso
+            mostrar debajo del botón ingresar, un párrafo con el contenido "password 1
+            correcto", en caso de que el password sea 714 se debe mostrar en el párrafo
+            "password 2 es correcto", si ingresa otro valor se debe mostrar "password
+            incorrecto". <strong>(Total: 4 puntos)</strong></p>
+        <ul>
+            <li>Se muestra correctamente el párrafo "password 1 correcto" al ingresar el
+                password 911 utilizando los select y luego presionando botón con el texto
+                ingresar. <strong>(1 punto)</strong></li>
+            <li>Adicionalmente se muestra correctamente el párrafo "password 2 correcto" al
+                ingresar el password 714 utilizando los select y luego presionando botón con el
+                texto ingresar. <strong>(2 puntos)</strong></li>
+            <li>Se muestra password incorrecto al seleccionar cualquier otro password <strong>(1 punto)</strong>.</li>
+        </ul>
+        <div class="flex_item_key">
+            <h3>Ingresa la contraseña:</h3>
+            <div class="keySelect">
+                <form>
+                    <label for="numero"></label>
+                    <select class="optionKey" name="numero" id="izquierda">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </form>
+                <form>
+                    <label for="numero"></label>
+                    <select  name="numero" id="centro">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </form>
+                <form>
+                    <label for="numero"></label>
+                    <select class="optionKey" name="numero" id="derecha">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </form>
+            </div>
+            <p class="pkey"></p>
+            <button class="button_key" onclick="verkey();">Verificar</button>
+        </div>
+    </div>
+
+    </div>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

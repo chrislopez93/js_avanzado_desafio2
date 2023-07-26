@@ -9,7 +9,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 1800px;
 }
 h1{
     font-weight:bolder;
@@ -24,6 +23,7 @@ h1{
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 50px;
 }
 
 h2{
@@ -50,9 +50,17 @@ h2{
     flex-direction: column;
     width: 100%;
     margin-top: 15px;
+    margin-bottom: 30px;
  }
 
  .flex_item_card_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .flex_item_key_container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -68,6 +76,38 @@ h2{
     margin-top: 30px;
  }
 
+ .flex_item_card_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .flex_item_key{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+ }
+
+ .keySelect{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+ }
+
+ .button_key{
+    margin-bottom:20px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+.optionKey{
+    width: 30px;
+}
+
  .imagenClass{
     border: 2px solid red;
  }
@@ -80,6 +120,7 @@ h2{
 .tarjeta_imagen{
     width: 250px;
     box-shadow: 5px 5px 15px 2px;
+    border-radius: 15px;
 }
 
 .tarjeta{
