@@ -38,6 +38,10 @@ h2{
     list-style: upper-latin;
  }
 
+ p, figcaption{
+    margin-top: 10px;
+ }
+
  .flex_item_body{
     display: flex;
     justify-content: center;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,10 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
     <h1>Desafío N°2: Condiciones</h1>
     <div class="flex_container_body">
@@ -18,15 +20,33 @@
         <p>Se debe construir una página con una única imagen, al hacerle click a la imagen se
             le debe agregar un borde rojo de 2 pixeles, al hacerle click nuevamente se le debe
             quitar el borde. <strong>(Total: 2 puntos)</strong></p>
-            <ul>
-                <li>Agregar borde con el click <strong>(1 punto)</strong></li>
-                <li>Si tiene borde, quitarle el borde con el click <strong>(1 punto)</strong></li>
-                <div class="flex_item_body">
-                    <img id="imagenId" class="imagen" src="./assets/img/road-1072823.jpg" alt="Bosque de Nueva Inglaterra" onclick="margen();">
-                </div>
-                
-            </ul>
+        <ul>
+            <li>Agregar borde con el click <strong>(1 punto)</strong></li>
+            <li>Si tiene borde, quitarle el borde con el click <strong>(1 punto)</strong></li>
+            <div class="flex_item_body">
+                <figure>
+                    <img id="imagenId" class="imagen" src="./assets/img/road-1072823.jpg"
+                        alt="Bosque de Nueva Inglaterra" onclick="margen();">
+                </figure>
+                <figcaption>Clickea la imagen para añadir el borde. También, si clickeas, lo podrás quitar.</figcaption>
+            </div>
+        </ul>
+    </div>
+    <div class="flex_container_body">
+        <h2>Tarea N°2:</h2>
+        <p>Se debe construir una página web que permita pedir hasta 10 stickers de los 3 tipos
+            disponibles. Para eso deberá existir un input debajo de cada imagen donde el
+            usuario podrá ingresar un número. En caso de que la suma de todos los stickers
+            seleccionados sea menor o igual 10 se indicará en un párrafo nuevo la cantidad de
+            stickers llevados. Ejemplo "llevas 5 stickers" en cualquier otro caso se mostrará un
+            texto que dice "Llevas demasiados stickers". <strong>(Total: 4 puntos)</strong></p>
+        <ul>
+            <li>El párrafo muestra la cantidad de stickers seleccionados <strong>(2 punto)</strong></li>
+            <li>El párrafo muestra que lleva demasiados stickers en caso de que la cantidad
+                sea mayor que 10. <strong>(2 punto)</strong></li>
+
     </div>
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
