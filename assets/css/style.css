@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background:linear-gradient(45deg, rgb(249, 235, 234),rgb(222, 205, 197), rgb(97, 198, 253), rgb(238, 158, 158), rgb(228, 23, 228));
 }
 h1{
     font-weight:bolder;
@@ -166,4 +167,3 @@ h2{
     color:red;
     font-weight: 600;
 }
-
