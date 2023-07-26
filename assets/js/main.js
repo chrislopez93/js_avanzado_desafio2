@@ -3,3 +3,4 @@ function margen(){
     margen.classList.toggle("imagenClass");
 }
 //Accede al elemento con imagenId y añade la clase imagenClass con classList.toggle
+
