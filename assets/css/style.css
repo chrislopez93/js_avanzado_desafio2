@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 1800px;
 }
 h1{
     font-weight:bolder;
@@ -78,6 +79,7 @@ h2{
 
 .tarjeta_imagen{
     width: 250px;
+    box-shadow: 5px 5px 15px 2px;
 }
 
 .tarjeta{
@@ -98,3 +100,8 @@ h2{
     width: 200px;
     margin-top: 15px;
 }
+
+#alerta_stickers{
+    color:red;
+}
+
