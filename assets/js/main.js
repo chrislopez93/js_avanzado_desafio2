@@ -24,7 +24,6 @@ function verkey(){
     const varizquierda = document.querySelector('#izquierda').value;
     const varcentro = document.querySelector('#centro').value;
     const varderecha = document.querySelector('#derecha').value;
-
     if(varizquierda == 9 && varcentro == 1 && varderecha == 1){
         const pkey = document.querySelector('.pkey');
         pkey.innerHTML = "Contraseña 1 correcta"; 
