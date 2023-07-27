@@ -13,11 +13,8 @@ function verCard(){
         document.querySelector('.seleccion_stickers').innerHTML = " " + suma;
     if(suma >= 11){
         const alerta = document.querySelector('.stickerSpan');
-        alerta.innerHTML = " " + "¡Atención! Haz sobrepasado los 10 stickers permitidos";  
-    }else{
-        const alerta = document.querySelector('.stickerSpan');
-        alerta.innerHTML = ""
-    }
+        alerta.innerHTML = " " + "¡Atención! Haz sobrepasado los 10 stickers permitidos";
+    }  
 }
 
 function verkey(){
