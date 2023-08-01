@@ -24,7 +24,18 @@ h1{
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.flex_container_card{
+   /* background-color: red; */
+   max-width:90%;
+   height: 500px;
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-bottom: 80px;
 }
 
 h2{
@@ -51,7 +62,7 @@ h2{
     flex-direction: column;
     width: 100%;
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
  }
 
  .flex_item_card_container{
@@ -101,7 +112,6 @@ h2{
     width: 400px;
     border: 5px solid black;
     padding: 10px;
-
  }
 
  .keySelect{

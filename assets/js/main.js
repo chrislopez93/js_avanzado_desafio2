@@ -14,7 +14,10 @@ function verCard(){
     if(suma >= 11){
         const alerta = document.querySelector('.stickerSpan');
         alerta.innerHTML = " " + "¡Atención! Haz sobrepasado los 10 stickers permitidos";
-    }  
+    }else{
+        const alerta = document.querySelector('.stickerSpan');
+        alerta.innerHTML = "";
+    }
 }
 
 function verkey(){
