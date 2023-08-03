@@ -1,6 +1,5 @@
 const clickeado = document.querySelector("#imagenId");
 let bordeRojo = false;
-
 clickeado.addEventListener("click", borde);
 function borde() {
   if (!bordeRojo) {
@@ -10,13 +9,6 @@ function borde() {
   }
   bordeRojo = !bordeRojo;
 }
-
-// function margen(){
-//     const margen = document.getElementById("imagenId");
-//     margen.classList.toggle("imagenClass");
-// }
-//Accede al elemento con imagenId y añade la clase imagenClass con classList.toggle.
-//El metodo toggle() no se puede utilizar dentro de una condición if.
 
 function verCard() {
   const kirby = document.querySelector("#kirby").value;
@@ -49,3 +41,11 @@ function verkey() {
     pkey.textContent = "Contraseña incorrecta";
   }
 }
+
+
+// function margen(){
+//     const margen = document.getElementById("imagenId");
+//     margen.classList.toggle("imagenClass");
+// }
+//Accede al elemento con imagenId y añade la clase imagenClass con classList.toggle.
+//El metodo toggle() no se puede utilizar dentro de una condición if.
